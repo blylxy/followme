@@ -1,0 +1,16 @@
+<?php
+namespace DummyNamespace;
+
+
+class DummyClass
+{
+
+    /*
+    *    将需要使用的Model通过构造函数实例化
+    */
+    public function __construct ()
+    {
+
+    }
+
+}

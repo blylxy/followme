@@ -12,7 +12,7 @@ class BaseinfoController extends Controller
     
     public function __construct(BaseinfoRepository $baseinfo)
     {
-        $this->baseinfo = $baseinfo->get();        
+        $this->baseinfo = $baseinfo->get()；
     }
     
     public function index(){

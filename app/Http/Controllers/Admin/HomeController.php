@@ -16,7 +16,7 @@ class HomeController extends Controller
     }
     
     public function index(){
-        //return "<br />test page 123"; 
+        //return "<br />test page 123"; aaakieu
         
         return view('admin/index', $this->baseinfo );
     }
